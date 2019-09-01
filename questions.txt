@@ -1,84 +1,88 @@
 Open main1.py. Before running it, what do you expect this program to do? 
-
+It looks like it will print the word greetings maybe, but i'm not sure what else.
 Now right click on the window and select “Run Python File in Terminal”. Click in the bottom panel, and answer the question. Describe what happened. 
-
+When I answered "blue" and hit enter, it looks like there was a file address generated. 
 What do you think the program did with what you typed?
-
+Same as line 4. It seems to have generated a file address for my computer. It's weird that it put it in C drive though. 
 
 
 Open main2.py. Before running it, describe how this is different than main1.py. 
-
+There is more code. I believe it's pretaining to color color of the text?
 What do you think the color = input() will do? 
-
+Whatever color we input the text will chang to that color maybe. 
 Run the program in the terminal and answer the question. Did the program do what you expected?
-
+Not at all. It just repeated the color i input and generated a file address again.
 
 
 Open main3.py. Before running it, describe how this is different than main2.py. 
-
+There is a lot more coode, and it looks like there is coding the changes baised on the answer.
 What is happening on lines 11–14? 
-
+The code says that if the answer is "Red", it will generated "correct" as a response. All other answers receive a, "Sorry try again!"
 Why are lines 12 and 14 indented? 
-
+Because the are the results of the answer
 Run the program and answer the question. What happens if you don’t capitalize Red? 
-
+You still get "sorry try again."
 What does this tell you about "color"?
-
+the code doesn't account the the tense of the response.
 
 
 Open main4.py. Before running it, describe how this is different than main2.py. 
-
+This time the code seems to account for the tense of the response. 
 What problem is this trying to solve? 
-
+Whether the response is "Red" or "red" the text answer will be "correct." Before if it was lower case, it would be "sorry try agian."
 Run the program and answer the question. What happens if you use some other capitalization scheme (i.e., “RED” or “reD“)?
-
+The response is still, "Sorry try again."
 
 
 Open main5.py. What do you expect line 11 to do? 
-
+Not sure. Maybe only lower case red as an answer is correct?
 What problem is it trying to solve? 
-
+I'm not sure until I run it
 Run the program and answer the question. What happens if you add spaces before or after the word (i.e., “  RED  “ or “ red”)?
-
+It's correct not matter how I capitalize the word red.
 
 
 Open main6.py. How is line 11 different than main5.py? 
-
+A new word, "strip" is added.
 What would you guess .strip() is doing? 
-
+I'm not sure. To strip usually refers to "take away." I guess it could be a strip like a line, or piece of something.
 Run the program and answer the question. Is there another way of writing “red” that will break this logic?
-
+No, not that I can tell. If I put spaces between eather letter "r e d" it will
 
 
 Open main7.py. Before running this program, how do you expect this to be different than main6.py? 
-
+if you answer "pink" instead of "red" you will get an answer of "close" instead of "correct," or "sorry try again"
 What is the purpose of line 11? 
-
+To make sure that not matter how i type "red" or "pink" I will recieve the appropriate answer.
 Run the program and answer the question.
-
+I did and my answer to line 53 was correct. 
 
 
 Open main8.py. What is the purpose of line 11? 
-
+No idea.
 Why are lines 12–19 indented? 
-
+Because those commands can't happen unless line 11 happens?
 Run the program. What would happen if line 12 were moved before line 11 (and no longer indented)? 
 
 Make that change and run the program again. To end any Python program, you can type ctrl-c.
+I recieve a weird error, but i can still answer the question. if i type in pink, "close!" repeats forever. So does "sorry try again" 
+if I put in any other color. 
+
 
 
 
 Open main9.py. What is happening on line 12? 
-
+Still not sure. 
 What is the purpose of “count”? 
-
+maybe it will double the answer?
 What is happening on line 22? 
-
+It looks like besides answering if we are correct, close, or incorrect in our response, it will also tell us how many times it took us to guess.
 Run the program.
-
+my guess on line 78 was correct. 
 
 *Extra credit:* open main10.py. Add a comment to each line describing what it is doing (a comment follows a pound sign [#]). 
 
 Commit your changes and push them back to the repository. 
 
-Did you do the extra credit?
+Did you do the extra credit? 
+Some of it. I'm very new to coding. 

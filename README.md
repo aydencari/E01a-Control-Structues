@@ -1,5 +1,7 @@
 # E01a-Control-Structues
 
+This code is intended for an class at Indiana University in Bloomington, IN. I edited this code for the class, and answered question w/in the question file per my professors instructions. Below are the instructions I followed in order to complete the assignment. 
+
 Let's start writing some Python code! This is the first set of exercises for MSCH-C220; they should give you the tools to build your first game.
 
 In order to complete the exercise, you will need to do the following:

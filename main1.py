@@ -7,4 +7,4 @@ utils.clear()                       # clear the screen
 
 
 print('Greetings!')
-input("What is my favorite color? ")
+input("What is my favorite color? ") 
